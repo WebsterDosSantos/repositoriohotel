@@ -1,0 +1,26 @@
+
+
+h1{
+    text-align: center;
+    border: solid 10px;
+    padding: 25px;
+    border-color: black;
+    background-color: goldenrod;}
+    
+
+
+body{
+    background-color: rgb(238, 232, 165);}
+
+h2{
+    text-align: center;
+}
+
+th,td{
+    padding: 3px;
+    border: solid 2px;
+}
+
+h4{
+    text-size-adjust: 23px;
+}
