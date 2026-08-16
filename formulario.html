@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <h1><strong><em>FORMULÁRIO VANGUARD</em></strong></h1>
+    <p>
+        Preencha seu formulariocom todas as informaçõem solicitadas, todosos dados são protegidos privados e restritos ao sitema de hoteis vanguard.
+    </p><br><br>
+
+<H2> <strong>DOCUMENTOS E REQUISITOS</strong></H2>
+<P>
+    Documentos obrigatórios para a emissão da nota de entrada na área de check-in</P>
+    <ul>
+        <li>Documento Pessoal com Foto</li>
+        <li>Comprovante de Renda (obrigatório)</li>
+        <li>Comprovante de residência</li>
+        <li>Seguro de Viagens</li>
+        <li>Declaração de Bagagens</li>
+        <li>Reserva monetária de emergência a cima de $5.000,00</li>
+    </ul>
+
+
+    <p>
+        <img src="https://img.odcdn.com.br/wp-content/uploads/2024/08/shutterstock_2326389575-1024x576.jpg" alt="moça escrevendo" width="450">
+    </p> <br><br>
+
+    <form>
+            <label for="nome">DIGITE SEU NOME</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu Nome">
+            <br><br>
+        <label for="email">DIGITE SEU EMAIL</label>
+        <input type="email" name="email" id="email" required placeholder="Digite seu Email">
+        <br><br>
+        <label for="whatsapp">WHATSAPP</label>
+        <input type="number" name="whatsapp" id="whatsapp" required placeholder="(xx)xxxxx-xxxx" pattern="number">
+        <br><br>
+        <label for="pessoas">QUANTIDADE DE HOSPEDES</label>
+        <input type="number" name="numero-de-pessoas" id="pessoas" placeholder="Máx 4" required pattern="number" max="4" min="1">
+        <br><br>
+        <label for="Numero">QUANTIDADE DE QUARTOS <label>
+        <input type="number" name="quantidade-de-quartos" id="number" required placeholder="Máx4" min="1" max="4">
+        <br><br>
+        <label for="tipo_quarto">MODELO DE HOSPEDAGEM</label>
+        <select id="tipo_quarto">
+            <option value="standard_noite"> Standard - 1 Noite</option>
+            <option value="standars_semana"> Standard - 1 Semana</option>
+            <option value="deluxe_noite">Deluxe - 1 Noite</option>
+            <option value="deluxe_semana">Deluxe - 1 Semana</option>
+            <option value="presidencia_noite">Presidencial - 1 Noite</option>
+            <option value="presidencial_semana">Presidencial - 1 Semana</option>
+            <br><br><br>
+        </select>
+
+        <p> 
+        <button class="botao-enviar">ENVIE SEU FORMULÁRIO</button>
+        </p>
+    </form>
+
+
+
+<footer>
+    <h5><strong><em>ATENÇÃO</strong></em></h5>
+            <P>
+                Certifique-se que todas a s informações foram preenchidas corretamente, antes de sair para sua viagem, verifique se todos os documentos estão a disposição, caso haja algum problema coma inscriçâo,agendamento, perca ou falta de documento, envie uma mensagem para nossa equipe de suporte através do whatsapp, atendimento disponível 24h por dia.
+            </P></footer>
+            <br><br>
+           <p style="text-align: center;">
+            <a href="hotel.html" class="botao-inicio">Volte ao inicio</a></p>
+
+</body>
+</html>
